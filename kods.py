@@ -1,4 +1,4 @@
-from cilveks import Produkti
+from produkti import Produkti
 import tkinter as tk
 from tkinter import ttk, END
 
@@ -67,7 +67,7 @@ def uzskaite_button_clicked():
 uzskaite_button = ttk.Button(frame, text='Uzskaitīt')
 uzskaite_button.grid(column=1, row=4, sticky='W', **options)
 uzskaite_button.configure(command=uzskaite_button_clicked)
-  
+
 
 saturs = tk.Variable(value=tuple(visi_produkti))
 
